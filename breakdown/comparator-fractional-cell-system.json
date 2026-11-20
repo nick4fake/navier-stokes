@@ -1,0 +1,13 @@
+{
+  "challenge_module": "FractionalCellSystemChallenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

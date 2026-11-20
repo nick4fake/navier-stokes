@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ExtendedCoerciveChallenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Breakdown.certificate_orbit",
+    "Breakdown.ModeWeights.multiplier_density",
+    "Breakdown.ModeWeights.mode_azimuthal_gain",
+    "Breakdown.ModeWeights.stretch_mean_bound",
+    "Breakdown.ModeWeights.multiplierInequality_of_density",
+    "Breakdown.PieceWeights.piece_multiplier_density",
+    "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+    "Breakdown.extended_certificate_orbit",
+    "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

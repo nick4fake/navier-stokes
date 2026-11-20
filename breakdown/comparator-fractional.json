@@ -1,0 +1,14 @@
+{
+  "challenge_module": "FractionalChallenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Breakdown.fractional_breakdown_on_space",
+    "Breakdown.fractional_breakdown_on_torus"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
