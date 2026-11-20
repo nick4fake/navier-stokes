@@ -6,19 +6,19 @@ T. Buckmaster and the Lean 4 formalization that accompanies it.
 ## Contents
 
 - `paper/finite-time-blow-up-navier-stokes.pdf`: the paper (79 pages, version of 20 November 2026).
-- `breakdown/`: the Lean package (Lean v4.33.1 with Mathlib, at the revision pinned in `breakdown/lakefile.toml`).
-  - `breakdown/README.md` explains how the formal statements relate to Theorem 1.1, Theorem 7.1, Corollary 7.2
+- `lean/`: the Lean package (Lean v4.33.1 with Mathlib, at the revision pinned in `lean/lakefile.toml`).
+  - `lean/README.md` explains how the formal statements relate to Theorem 1.1, Theorem 7.1, Corollary 7.2
     and Appendix B of the paper, and where the formal proofs differ from the proofs of the paper.
-  - `breakdown/NOTICE` says in words what each statement file contains and what is proved.
+  - `lean/NOTICE` says in words what each statement file contains and what is proved.
 
 ## The Lean package
 
-The statement files at the top of `breakdown/` give the definitions and state the theorems with `sorry` in
-place of their proofs; `Solution.lean` proves them from the library `breakdown/Breakdown/`. Each
+The statement files at the top of `lean/` give the definitions and state the theorems with `sorry` in
+place of their proofs; `Solution.lean` proves them from the library `lean/Breakdown/`. Each
 `comparator*.json` pairs a statement file with `Solution.lean`, names the theorems whose statements must agree,
 and permits only the axioms `propext`, `Quot.sound` and `Classical.choice`.
 
-To build, from `breakdown/`:
+To build, from `lean/`:
 
 ```bash
 lake exe cache get
